@@ -24,7 +24,7 @@ jobs:
           
       - name: 开始
         env:
-            CONFIG: ${{ secrets.CONFIG }}
+            CONFIG: ${{ secrets.CONFIG1 }}
         run: |
           pip3 install requests pytz
           python3 main.py
